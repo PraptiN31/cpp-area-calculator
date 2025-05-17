@@ -1,14 +1,14 @@
-# cpp-area-calculator
-This is a baby C++ project that takes the side length of a square and tells you its area 
+# cpp-calculator-playground
+This is a baby C++ project that includes varoius kinds of calculators 
 
 
 ## **How does it work?** 
 
--you type the side lenth in the given place
+-you type in the value of the variables
 
 -press enter
 
--BAM! You got your area 🎉 
+-BAM! You got your answer 🎉 
 
 
 ## **How to compile?** 
