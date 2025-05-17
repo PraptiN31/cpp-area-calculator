@@ -1,4 +1,4 @@
-# cpp-square-area 
+# cpp-area-calculator
 This is a baby C++ project that takes the side length of a square and tells you its area 
 
 
