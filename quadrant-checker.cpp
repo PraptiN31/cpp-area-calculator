@@ -7,15 +7,22 @@ int main(){
     cout<<"Enter y coordinate = "; 
     cin>>y; 
 
-    if (x>=0) { 
-        if (y>0) { cout<<"Point lies in 1st quadrant"; } 
-        if (y<0) {cout<<"Point lies in 4th quadrant"; } 
-        if (x==0 and y==0) { cout<<"Point lies in the origin"; }
-    }  
+    if (x==0) { 
+        if (y==0) { cout<< "Point lies in the origin"; } 
+        else { cout<<"Point lies in the y-axis"; }
+    }   
+
+    else if (x>0) { 
+        if (y==0) {cout<< "Point lies in the x-axis";} 
+        else if (y>0) {cout<<"Point lies in the 1st quadrant";} 
+        else {cout<<"Point lies in the 4th quadrant"; }  
+        
+    }   
 
     else {
-      if (y>0) { cout<<"Point lies in 2nd quadrant"; } 
-      else { cout<<"Point lies in 3rd quadrant"; } 
+      if (y==0) { cout<<"Point lies in the x-axis"; } 
+      else if (y>0) {cout<<"Point lies in the 2nd quadrant";}
+      else { cout<<"Point lies in the 3rd quadrant"; } 
     }
 
 }
