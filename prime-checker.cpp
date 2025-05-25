@@ -15,7 +15,10 @@ int main(){
     }  
 }
 
-    if (isPrime) { 
+    if (a==1) {  
+        cout<<"Neither prime nor composite";
+    } 
+    else if (isPrime) { 
         cout<<"Number is prime";
     } 
     else { 
